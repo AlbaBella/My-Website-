@@ -1,0 +1,47 @@
+.content{
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Srisakdi', cursive;
+}
+fieldset{
+    padding:200px;
+    padding-top: 50px;
+    padding-bottom:50px;
+    outline:none;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color:rgb(91, 66, 102);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(212, 164, 224);
+  }
+  
+  .col {
+    float: left;
+    width: 50%;
+    padding: 15px;
+  }
+  
+  .row:after {
+    display: table;
+    clear: both;
+  }
